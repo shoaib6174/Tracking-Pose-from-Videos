@@ -6,17 +6,20 @@ In this project I used mmpose library's top_down_pose_tracking_demo_with_mmdet.p
 * [See the full code here](https://github.com/shoaib6174/Tracking-Pose-from-Videos/blob/main/top_down_pose_tracking_demo_with_mmdet.py)
 * [See the code for extracting the frames parallaly and merging them to make a video here](https://github.com/shoaib6174/Tracking-Pose-from-Videos/blob/main/merge_videos.py)
 
+### To run the code on colab
+I have tested this code on Google Colab. [You can use this notebook to run the code.](https://colab.research.google.com/drive/19xB3ocGyfZf1q1pPuEolgFgLP1a1D3SC?usp=sharing)
 
-I have tested this code on Google Colab. You can use this notebook to run the code. 
 
 
-To run this code locally clone this repo-
+### To run this code locally 
+
+clone this repo-
 ```
 git clone https://github.com/shoaib6174/Tracking-Pose-from-Videos.git
 
 cd Tracking-Pose-from-Videos
 ```
-Run the following code to install all the dependencies
+Run the following commands to install all the dependencies
 ```
 pip install torch
 pip install wheel
