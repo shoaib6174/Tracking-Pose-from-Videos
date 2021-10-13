@@ -57,4 +57,4 @@ python top_down_pose_tracking_demo_with_mmdet.py \
 
 If you get any error of missing dependencies please install them. 
 
-I have tested this code on Google Colab. You can use this notebook to run the code. 
+
