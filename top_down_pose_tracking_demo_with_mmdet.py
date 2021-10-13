@@ -325,6 +325,7 @@ def main():
         videoWriter.release()
     cv2.destroyAllWindows()
 
+    print("Pose Tracking completed. Watch merged_video.mp4")
 
 if __name__ == '__main__':
     main()
