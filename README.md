@@ -1,6 +1,6 @@
-"# Tracking-Pose-from-Videos" 
+# Tracking Pose from multiple Videos 
 
-In this project I used
+In this project I used mmpose library's top_down_pose_tracking_demo_with_mmdet.py to track pose from multiple videos after merging them
 
 Watch the output video here
 See the full code here
@@ -20,23 +20,25 @@ pip install wheel
 pip install mmcv-full
 pip install mmdet
 
-
+# clone mmpose repo
 rm -rf mmpose
 git clone https://github.com/open-mmlab/mmpose.git
 cd mmpose
 
 # install mmpose dependencies
 pip install -r requirements.txt
+
 # install mmpose in develop mode
 pip install -e .
 
+#return to Tracking-Pose-from-Videos directory
 cd ..
 
 pip install opencv-python
 pip install mmtrack
 ```
 
-Then to run the following code- 
+Then to run the top_down_pose_tracking_demo_with_mmdet.py run the following command- 
 ```
 python top_down_pose_tracking_demo_with_mmdet.py \
     mmpose/demo/mmdetection_cfg/faster_rcnn_r50_fpn_coco.py \
