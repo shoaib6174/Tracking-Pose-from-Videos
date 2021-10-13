@@ -52,7 +52,7 @@ python top_down_pose_tracking_demo_with_mmdet.py \
     mmpose/configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/coco/res50_coco_256x192.py \
     https://download.openmmlab.com/mmpose/top_down/resnet/res50_coco_256x192-ec54d7f3_20200709.pth \
     --input_videos_folder_path input_videos \
-    --out-video-root vis_results
+    --out-video-root task_output_video
 ```
 
 If you get any error of missing dependencies please install them. 
