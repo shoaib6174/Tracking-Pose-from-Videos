@@ -1,6 +1,6 @@
 # Tracking Pose from multiple Videos 
 
-In this project I used mmpose library's top_down_pose_tracking_demo_with_mmdet.py to track pose from multiple videos after merging them
+In this project I used mmpose library's top_down_pose_tracking_demo_with_mmdet.py to track pose from multiple videos after merging them.
 
 * [Watch the output video here](https://drive.google.com/file/d/1lStnRa2Nk26SFu914vnjlmLdAm_N7Cz5/view?usp=sharing)
 * [See the full code here](https://github.com/shoaib6174/Tracking-Pose-from-Videos/blob/main/top_down_pose_tracking_demo_with_mmdet.py)
