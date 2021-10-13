@@ -5,7 +5,7 @@ In this project I used mmpose library's top_down_pose_tracking_demo_with_mmdet.p
 Watch the output video here
 See the full code here
 
-See the code for extracting the frames parallaly and merging them to make a video here
+See the code for extracting the frames parallaly and merging them to make a video [here](https://github.com/shoaib6174/Tracking-Pose-from-Videos/blob/main/merge_videos.py)
 
 To run this code locally clone this repo-
 ```
